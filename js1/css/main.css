@@ -1,0 +1,129 @@
+/* ----- landing page ----- */
+
+/* ----- default styles mobile ----- */
+
+.hidden {
+    display: none;
+   } 
+
+
+body { 
+    background-image:url(../images/bg_landing.jpg);
+	background-repeat:no-repeat; background-position:center center;
+	background-color:#323232; 
+}
+
+#headLine {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: auto;
+    height: 72px;
+    background: #323232;
+}
+
+
+.top-nav {
+    margin: auto;
+    align-items: center;
+    width: auto;
+}
+
+.logo { 
+    width: 100%;
+	cursor: pointer;
+}
+
+.section { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    padding: auto;
+    gap:20px;
+    border: 86px;
+ }
+
+h2 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 86px;
+    padding-bottom: 50px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+
+}
+
+nav li {
+    text-decoration: none;
+}
+
+.button {
+    width: 229px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center; 
+    padding: 16px 48px 16px 48px;
+    background: rgba(255, 255, 255, 0.36);
+    border-color: rgba(255, 255, 255, 0.36);
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 32px;
+    cursor: pointer;
+}
+
+.icon { width: 20%; padding-right: 5px;}
+
+/* ----- default styles desktop ----- */
+@media screen and (min-width: 430px) {
+
+
+    h2 {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 64px;
+        line-height: 70px;
+        text-align: left;
+        color: #ffffff;
+        padding-left: 96px;
+        margin: auto;
+    }
+
+    .nav {
+        display: flex;
+        flex-direction: row;
+        align-items: center; 
+        padding: 20px;  
+    }
+
+    .nav ul {
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 30px; 
+    }
+
+    nav li {
+        text-decoration: none;
+    }
+
+}
